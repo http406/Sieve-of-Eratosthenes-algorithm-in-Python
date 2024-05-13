@@ -1,3 +1,3 @@
 # Sieve of Eratosthenes Algorithm in Python
 
-This code implements the Sieve of Eratosthenes algorithm to find prime numbers up to a given limit. It dynamically allocates memory for the boolean array to mark primes, iteratively marks multiples of prime numbers, and then prints out the prime numbers found.
+This code implements the Sieve of Eratosthenes algorithm to find prime numbers up to a given limit. It dynamically allocates memory for the boolean array to mark primes, iteratively marks multiples of prime numbers, and then prints out the prime numbers found. The Sieve of Eratosthenes algorithm efficiently finds all prime numbers up to a given limit by iteratively marking the multiples of each prime number starting from 2 as composite. The remaining unmarked numbers are primes. It has a time complexity of O(n log log n), making it quite efficient for generating primes within reasonable limits.
